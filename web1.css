@@ -1,0 +1,569 @@
+
+body{
+    position: relative;
+}
+* {
+box-sizing: border-box;
+}
+
+.parent {
+display: flex !important;
+flex-wrap: nowrap;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+.p100{
+    color: blue;
+}
+.spannav1{
+    color:  blue;
+}
+
+.nav{
+    display: flex;
+    
+    background-color: white;
+    color: aliceblue;
+        justify-content:flex-end ;
+    justify-content: space-between; 
+    align-items: center ;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.ul1 li{
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    
+    
+}
+.ul1 li:hover{
+    color: green;
+}
+
+.ul1{
+    display: flex;
+    gap: 25px;
+}
+.gethub{
+    background-color: green;
+    width: 150px;
+    border-radius: 25px;
+    
+}       
+.home{
+    color: black;
+}
+
+.h1nav{
+    color: red;
+}
+
+.gethub:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end nav par  ==================================================================================== */
+
+
+
+
+
+
+
+
+
+
+/* media small phonwe */
+
+
+@media(max-width:480px   ) {
+    
+
+    .spannav1{
+    color: black;
+}
+
+.nav{
+    display: flex;
+    
+    background-color: white;
+    color: black;
+        justify-content:flex-end ;
+    justify-content: space-between; 
+    align-items: center ;
+
+}
+
+.ul1 li{
+    list-style: none;
+    display: flex;
+    font-size: x-small;
+    
+}
+.ul1 li:hover{
+    color: red;
+}
+
+.ul1{
+    display: flex;
+    gap: 25px;
+}
+.gethub{
+    background-color: black;
+    width: 105px;
+    border-radius: 15px;
+    
+}       
+
+
+
+}
+
+
+
+.gethub:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+/* media meed phone */
+
+@media(min-width:480px   ) and  ( max-width: 768px) {
+    
+
+    .spannav1{
+    color: forestgreen;
+}
+
+.nav{
+    display: flex;
+    
+    background-color: black;
+    color: aliceblue;
+        justify-content:flex-end ;
+    justify-content: space-between; 
+    align-items: center ;
+
+}
+
+.ul1 li{
+    list-style: none;
+    display: flex;
+    font-size: small;
+    
+}
+.ul1 li:hover{
+    color: green;
+}
+
+.ul1{
+    display: flex;
+    gap: 25px;
+}
+.gethub{
+    background-color: green;
+    width: 105px;
+    border-radius: 15px;
+    
+}       
+
+
+
+}
+
+
+
+
+
+
+
+.gethub:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media meed phone */
+
+@media(min-width:769   ) and  ( max-width: 1024) {
+    
+
+    .spannav1{
+    color: forestgreen;
+}
+
+.nav{
+    display: flex;
+    
+    background-color: black;
+    color: aliceblue;
+        justify-content:flex-end ;
+    justify-content: space-between; 
+    align-items: center ;
+
+}
+
+.ul1 li{
+    list-style: none;
+    display: flex;
+    font-size: large;
+    
+}
+.ul1 li:hover{
+    color: green;
+}
+
+.ul1{
+    display: flex;
+    gap: 25px;
+}
+.gethub{
+    background-color: green;
+    width: 105px;
+    border-radius: 15px;
+    
+}       
+
+
+
+}   
+
+
+
+.gethub:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+/* end all nav par ===================================================== */
+
+
+
+   /* <!-- start div  ============== --> */
+.p1{
+    color: green;
+    font-size: larger;
+
+}
+.span1{
+color: blue;}
+.span2{
+    color: red;
+}
+
+
+
+.input1{
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: red;
+}
+.input1::placeholder{
+    color: aliceblue;
+}
+
+
+.div1{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+        /* <!-- end div 1 ============== --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* <!-- start div 2 ============== --> */
+
+
+
+
+
+            
+.div2{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+    background-color: red;
+    border-radius: 25px;
+    
+}
+
+
+
+            /* <!-- end div 2 ============== --> */
+
+
+
+
+
+
+
+
+
+
+            
+            /* <!-- start div 3 ============== --> */
+
+
+
+.div3{
+    
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.span3{
+    color: blue;
+
+
+}
+
+.span4{
+    color: red    ;
+}
+.spanwhit{
+    color: aliceblue;
+}
+.div1back{
+    background-color: red;
+    width:  650px;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.div2back{
+    background-color: red;
+    width:  700px;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.div3back{
+    background-color: red;
+    width:  750px;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+            /* <!-- end div 3 ============== --> */
+
+
+            
+            /* <!-- start div 4 ============== --> */
+.span5{
+    color: blue;
+
+}
+
+.span6{
+    color: red;
+}
+
+
+
+
+
+
+            /* <!-- end div 4 ============== --> */
+
+
+            
+            /* <!-- start div 5 ============== --> */
+
+.span7{
+    color: blue;
+
+}
+
+
+.span8{
+    color: red ;
+}
+.div5{
+    display: flex;
+    gap: 100px;
+}
+
+.allp1{
+    margin-bottom: 200px;
+}
+ 
+.all4{
+    position: absolute;
+    top: 1950px  ;
+    left: 1150px;
+        
+}
+
+.img4{
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+
+
+
+            /* <!-- end div 5============== --> */
+
+
+            
+            /* <!-- start div 6 ============== --> */
+
+
+
+
+
+.div7{
+    display: flex;
+    background-color: blue;
+    color: whitesmoke;
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: -250px;
+    margin-left: -650px;
+    
+}
+
+
+.ladtdiv{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+.div8{
+    background-color: red;
+    margin-left: -675px;
+    width: 1505px;
+    height: 500px;
+    font-size: x-large;
+
+}
+
+
+.lastp{
+    padding-top: 150px  ;
+}
+
+
+
+.div9{
+    
+    width: 150px;
+    margin-top: -420px;
+    margin-left: 150px;
+
+}
+.input2{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px ;
+}
+
+.input3{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px ;
+}
+
+
+.input4{
+    width: 400px;
+    height: 100px;
+    border-radius: 25px ;
+}
+
+
+.input5{
+    width:500px;
+    height: 150px;
+    border-radius: 25px ;
+}
+
+
+
+
+.link{
+    color: white;
+    text-decoration: none   ;
+}
+
+
+.input6{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 100px;
+    border-radius: 25px;
+}
