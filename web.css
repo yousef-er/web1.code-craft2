@@ -1,0 +1,84 @@
+html {
+scroll-behavior: smooth;
+}
+        
+
+
+body{
+
+    margin:0 ;
+    padding: 0;
+    background: #467a8f;
+background: linear-gradient(90deg, rgba(70, 122, 143, 1) 0%, rgba(112, 45, 45, 1) 0%, rgba(33, 16, 16, 1) 0%, rgba(94, 35, 35, 1) 57%, rgba(87, 12, 12, 1) 100%);
+
+
+
+}
+/* 
+.input{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    
+    background: #467a8f;
+background: linear-gradient(90deg, rgba(70, 122, 143, 1) 0%, rgba(122, 56, 56, 1) 0%, rgba(51, 6, 6, 1) 2%, rgba(56, 16, 16, 1) 57%, rgba(0, 0, 0, 1) 100%);
+border-radius: 15px ;
+color: aliceblue;
+margin-left: 550px;
+margin-top: 350px;
+} */
+
+
+    
+.ulnav{
+    
+    height: 100px;
+    
+    /* display: grid; */
+    /* grid-template-columns: repeat( 8 , 180px); */
+
+    display: flex;
+    gap: 100px;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    font-size: xx-large;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+.link1{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+.div1 , .div2 , .div3 , .div4 , .div5 , .div6 , .div7 , .div8{ 
+    color: aliceblue;
+    animation: slidein 1.5s ease ;
+    font-size: x-large;
+    
+    
+}
+.h1la{
+    color: aliceblue;
+    margin-top: 300px;
+}

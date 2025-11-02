@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+    margin-left: auto;
+    height: 150px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 25px;
+
+    
+            
+.li1{
+    color: aliceblue;
+}
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+        margin-left: 30px   ;
+
+}
+a:hover{
+    color: #660000  ;
+}
+.text1{
+    color: aliceblue;
+}
+.ulnav{
+    margin-left: auto;
+
+
+    display: flex;
+    gap: 75px;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    font-size: x-large;
+}
+.Burger{
+    background-color: #660000;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.img2{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.img3{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.img4{
+    width: 300px;
+    height: 300px;
+}
+.img5{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.img6{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.img7{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.img8{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+.img9{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+.img10{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.img11{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+.img12{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+.img13{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+.img14{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.img15{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    border-radius: 20px;
+    transition: 1s ease;
+}
+img:hover{
+
+    width: 350px;
+    height: 320px;
+}
+.shawarma{
+    display: flex;
+    gap: 200px;
+    background-color: #660000;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.pizza{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    background-color: #660000;
+}
+
+
+.drinks{
+    background-color: #660000;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+
+
+.sause{
+
+
+    background-color: #660000;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+
+
+.call{
+    background-color: #660000;
+    justify-content: center;
+    align-items: center;
+    height: 200OX;
+    margin: 50px;
+    border-radius: 25px;
+
+
+}
